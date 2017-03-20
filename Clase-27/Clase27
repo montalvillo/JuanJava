@@ -1,0 +1,23 @@
+
+Tarea 0  
+
+Responde sobre el siguiente método:
+
+JOptionPane.showMessageDialog(rootPane, "Hola mundo!", "Warning message", JOptionPane.WARNING_MESSAGE);
+
+- ¿Qué significa cada parámetro, en detalle?
+- ¿Puede utilizarse el método showMessageDialog con menos parámetros, justifica?
+- ¿Puede utilizarse el método showMessageDialog con más parámetros, justifica?
+- Crea 5 dialogs diferentes según el tipo de mensaje.
+
+Recuerda que el JavaDoc de cada método es rico en información.
+
+Respuestas:
+
+parametro rootPane: significa donde esta situado el cuadro es decir es el primero que hay que cerrar.
+parametro evt ("Hola mundo!") : es de tipo String indica la leyenda que se va a ver dentro del cuadro.
+parametro title("Warnig message"): es de tipo String es el titulo del cuadro de dialogo.
+parametro JOptionPane.WARNING_MESSAGE :es de tipo de icono que aparece en el cuadro de dialogo.
+ 
+Si se puede, necesita al menos dos parametros.
+Si se puede, admite hasta cinco parametros.
