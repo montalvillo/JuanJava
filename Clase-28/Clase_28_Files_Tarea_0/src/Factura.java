@@ -9,13 +9,15 @@ public class Factura {
     String descripcionSevicio;
     String precio;
 
+   
+
 
 public String getFacturaCSV() {
         
      String Factura = idFactura+";"+Fecha+";"+nombreCliente+";"+direccionCliente+
-        ";"+descripcionSevicio+";"+precio; 
-      
-       return Factura;
+        ";"+descripcionSevicio+";"+precio+"\n";
+             
+      return Factura;
 }
     }
 
