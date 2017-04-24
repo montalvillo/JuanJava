@@ -1,4 +1,0 @@
-2638;15/04/2017;Garcia Valle;Abejarruco 10 2W;Limpieza balcon;100
-952;15/04/2017;Fillipe Luis;Urraca 12 4R;Limpieza ventanas;200
-2475;15/04/2017;Cholo Simeone;Calderon 12 5R;Limpieza de baldosas;134
-8907;15/04/2017;Niño Torres;Urraca 23 4W;Limpieza de salon;145
