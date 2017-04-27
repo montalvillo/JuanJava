@@ -33,12 +33,14 @@ public class NewJFrame extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jSlider2.setMajorTickSpacing(20);
+        jSlider2.setForeground(java.awt.Color.red);
+        jSlider2.setMajorTickSpacing(1);
         jSlider2.setMaximum(5);
         jSlider2.setMinimum(1);
+        jSlider2.setMinorTickSpacing(1);
         jSlider2.setPaintLabels(true);
         jSlider2.setPaintTicks(true);
-        jSlider2.setValue(1);
+        jSlider2.setValue(0);
         jSlider2.addChangeListener(new javax.swing.event.ChangeListener() {
             public void stateChanged(javax.swing.event.ChangeEvent evt) {
                 jSlider2StateChanged(evt);
@@ -76,7 +78,10 @@ public class NewJFrame extends javax.swing.JFrame {
 
     private void jSlider2StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_jSlider2StateChanged
 
-        jLabel1.setText("El valor es :"+jSlider2.getValue());   
+       jLabel1.setText("El valor es :"+jSlider2.getValue()); 
+      
+        
+        System.out.println(jSlider2.getValue());
 
  // TODO add your handling code here:
     }//GEN-LAST:event_jSlider2StateChanged
