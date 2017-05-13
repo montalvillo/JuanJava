@@ -8,6 +8,7 @@ public class Factura {
     String direccionCliente;
     String descripcionSevicio;
     String precio;
+    
 
    
 
